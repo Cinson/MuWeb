@@ -1,3 +1,0 @@
-title=843
-"D:\Java\jdk1.7.0_60\bin\java" -jar -server -Xms512M -Xmx512M -Xmn330M -XX:PermSize=64M -XX:MaxPermSize=64M -Xss1024K -Djava.util.Arrays.useLegacyMergeSort=true -XX:+DisableExplicitGC -XX:SurvivorRatio=1 -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSParallelRemarkEnabled -XX:+UseCMSCompactAtFullCollection -XX:CMSFullGCsBeforeCompaction=0 -XX:+CMSClassUnloadingEnabled -XX:LargePageSizeInBytes=128M -XX:+UseFastAccessorMethods -XX:+UseCMSInitiatingOccupancyOnly -XX:CMSInitiatingOccupancyFraction=80 -XX:SoftRefLRUPolicyMSPerMB=0 -XX:+PrintClassHistogram -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:gclog/gc.log secure.jar &
-pause
