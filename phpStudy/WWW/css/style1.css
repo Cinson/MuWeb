@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0}
+body{ margin:0; padding:0; background-color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#6f6f6f; }
+ul{ margin:0px;padding:0px; list-style:none;}
+img{ border:0;}
+.h1,h2,h3,h4,h5,h6{ font-size:16px;}
+a { color:#6f6f6f; text-decoration:none;}
+a:hover { color:#F00; text-decoration:none;}
+
+.f_l { float:left;}
+.f_r { float:right;}
+.clear { clear:both;}
+.margintop10 { margin-top:10px;}
+.margintop5 { margin-top:5px;}
+
+
+/*开始*/
+.zl { width:123px; height:auto; float:left;}
+.yxbg { background:url(../images/zl_yxbg.gif) 0 -10px no-repeat;}
+.zl_top { width:112px; height:10px; background-position:0 0;}
+.zl_5399logo { width:112px; height:38px; background-position:0 -10px;  text-indent:-999em;}
+.zl_5399logo a { display:block;width:112px; height:50px;}
+.zl_yxlogo { width:112px; height:70px;background-position:0 -47px; text-indent:-999em;}
+.zl_yxlogo a { display:block; width:112px; height:70px;}
+.zl_qf {width:112px; padding:5px 0; line-height:20px; font-weight:bold; color:#eee;background-position:0 -125px; text-align:center;}	
+.zl_search { width:111px;padding-left:1px;background-position:0 -130px;}
+
+.zl_yxnr { width:112px; background:url(../images/zl_bg.gif) 0px 0 repeat-y;}
+  .zl_yxxyz { width:106px; height:30px;background:url(../images/zl_tbbg1.gif) no-repeat; margin:1px 0px 1px 3px;}
+  .zl_yxxyz a { display:block; width:106px; height:30px; text-indent:-999em;}
+  .zl_yxxyz a:hover {background:url(../images/zl_tbbg1.gif) -116px 0px no-repeat;}
+  .zl_yxnr1 { background-position:0px 0px;}
+  .zl_yxnr2 { background-position:0px -41px;} 
+  .zl_yxnr3 { background-position:0px -82px;} 
+  .zl_yxnr4 { background-position:0px -123px;}
+  .zl_yxnr5 { background-position:0px -164px;}
+  .zl_yxnr6 { background-position:0px -205px;}
+  .zl_yxnr7 { background-position:0px -246px;}
+  .zl_yxnr8 { background-position:0px -287px;}  
+  .zl_yxnr1 a:hover { background-position:-116px 0;}
+  .zl_yxnr2 a:hover { background-position:-116px -41px;}
+  .zl_yxnr3 a:hover { background-position:-116px -82px;}
+  .zl_yxnr4 a:hover { background-position:-116px -123px;}
+  .zl_yxnr5 a:hover { background-position:-116px -164px;}
+  .zl_yxnr6 a:hover { background-position:-116px -205px;}
+  .zl_yxnr7 a:hover { background-position:-116px -246px;}
+  .zl_yxnr8 a:hover { background-position:-116px -287px;}
+#navxxx{width:112px;margin:0px;padding:0px;font-size:12px;line-height:26px; _margin-left:-5px;}
+#navxxx li{list-style-image:none;list-style-type:none;float:left; width:106px; margin:1px 0px 1px 3px; line-height:23px;text-align:center; font-size:12px; font-weight:bold; background:url(../images/zl_tbbg1.gif) -232px 0px no-repeat; }
+#navxxx a{display:block;text-decoration:none; color:#fee02f; text-shadow:1px 1px 0 #000;}
+#navxxx a:hover {}
+#navxxx li ul{padding-top:1px;	list-style-image:none;	list-style-type:none;}
+#navxxx li li{width:106px; height:24px; line-height:24px; text-align:center; padding:2px 0; font-weight:normal;margin:0px; background:none;}
+#navxxx li li a {color:#ffd987; text-shadow:none;}
+#navxxx li li a:hover {color:#ffd987; text-decoration:underline;}
+.cx {display:none;visibility:hidden;}
+.ex {display:inherit;visibility:inherit;}
+/*微信*/
+.wx_top {text-align:center;line-height:25px;color:#ffd987;padding-top:5px;}
+.wx_bottom {text-align:left;line-height:15px;padding-left:10px;padding-top:5px;color:#ffd987;}
+/*左侧活动滚动*/
+.hd_gd { width:80px;padding: 5px 14px 5px 14px;text-align: center; color:#000; font-weight:bold;line-height: 22px; background:url(../images/hd_bg.gif) 4px 0px no-repeat;}
+.zl_bottom { width:112px; height:70px; background:url(../images/zl_yxbg.gif) 0 bottom no-repeat; text-indent:-999em;}
+.zl_bottom a { width:112px; height:85px; display:block;} 
+/*上部导航*/
+.zl_topbg { height:30px; background:url(../images/zl_topbg.gif) 0 0 repeat-x; font-family:"微软雅黑"; color:#fbbb53; overflow:hidden;}
+.zl_topbg1 { line-height:30px; margin:0 auto;}
+.zl_topbg1a {}
+.zl_topbg1b {padding-left:20px;}
+.zl_topbg1b a {color:#fbbb53;}
+.zl_topbg1b a:hover {color:#F00;}
+.zl_topbg1c { color:#fbbb53; font-weight:bold; text-align:center;}
+.zl_topbg1c a { color:#fff;}
+.zl_topbg1d { padding-right:20px;}
+.zl_topbg1d a { font-weight:bold; color:#fbbb53;}
+.zl_topbg1d a:hover {color:#F00;}
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<root>
+	<pool name="user">
+		<property name="name" value="user"/>
+		<property name="url" value="jdbc:mysql://127.0.0.1:3306/muuser?useUnicode=true&amp;characterEncoding=UTF-8&amp;rewriteBatchedStatements=true"/>
+		<property name="username" value="root"/>
+		<property name="password" value="root"/>
+		<property name="initialSize" value="1"/>
+		<property name="minIdle" value="1"/>
+		<property name="maxActive" value="50"/>
+		<property name="maxWait" value="60000"/>
+		<property name="timeBetweenEvictionRunsMillis" value="60000"/>
+		<property name="minEvictableIdleTimeMillis" value="300000"/>
+		<property name="validationQuery" value="SELECT 'x'"/>
+		<property name="testWhileIdle" value="true"/>
+		<property name="testOnBorrow" value="false"/>
+		<property name="testOnReturn" value="false"/>
+		<property name="poolPreparedStatements" value="true"/>
+		<property name="maxPoolPreparedStatementPerConnectionSize" value="100"/>
+		<property name="filters" value="stat"/>
+	</pool>	
+	<pool name="globallog">
+		<property name="name" value="globallog"/>
+		<property name="url" value="jdbc:mysql://127.0.0.1:3306/mugloballog?useUnicode=true&amp;characterEncoding=UTF-8&amp;rewriteBatchedStatements=true"/>
+		<property name="username" value="root"/>
+		<property name="password" value="root"/>
+		<property name="initialSize" value="1"/>
+		<property name="minIdle" value="1"/>
+		<property name="maxActive" value="10"/>
+		<property name="maxWait" value="60000"/>
+		<property name="timeBetweenEvictionRunsMillis" value="60000"/>
+		<property name="minEvictableIdleTimeMillis" value="300000"/>
+		<property name="validationQuery" value="SELECT 'x'"/>
+		<property name="testWhileIdle" value="true"/>
+		<property name="testOnBorrow" value="false"/>
+		<property name="testOnReturn" value="false"/>
+		<property name="poolPreparedStatements" value="true"/>
+		<property name="maxPoolPreparedStatementPerConnectionSize" value="100"/>
+		<property name="filters" value="stat"/>
+	</pool>	
+</root>

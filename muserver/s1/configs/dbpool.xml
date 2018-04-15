@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<root>	
+	<pool name="game">
+		<property name="name" value="game"/>
+		<property name="url" value="jdbc:mysql://127.0.0.1:3306/mugame_0001?useUnicode=true&amp;characterEncoding=UTF-8&amp;rewriteBatchedStatements=true"/>
+		<property name="username" value="root"/>
+		<property name="password" value="root"/>
+		<property name="initialSize" value="1"/><!--初始连接数-->
+		<property name="minIdle" value="1"/><!--最小连接数-->
+		<property name="maxActive" value="50"/><!--最大连接数-->
+		<property name="maxWait" value="60000"/><!--获取连接的的等待时间-->
+		<property name="timeBetweenEvictionRunsMillis" value="60000"/><!--配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒-->
+		<property name="minEvictableIdleTimeMillis" value="180000"/><!--配置一个连接在池中最小生存的时间，单位是毫秒-->
+		<property name="validationQuery" value="SELECT 'x'"/>
+		<property name="testWhileIdle" value="true"/>
+		<property name="testOnBorrow" value="false"/>
+		<property name="testOnReturn" value="false"/>
+		<property name="poolPreparedStatements" value="true"/><!--打开PSCache-->
+		<property name="maxPoolPreparedStatementPerConnectionSize" value="100"/><!--指定每个连接上PSCache的大小-->
+		<property name="filters" value="stat"/>
+	</pool>
+	<pool name="log">
+		<property name="name" value="log"/>
+		<property name="url" value="jdbc:mysql://127.0.0.1:3306/mulog?useUnicode=true&amp;characterEncoding=UTF-8&amp;rewriteBatchedStatements=true"/>
+		<property name="username" value="root"/>
+		<property name="password" value="root"/>
+		<property name="initialSize" value="1"/>
+		<property name="minIdle" value="1"/>
+		<property name="maxActive" value="5"/>
+		<property name="maxWait" value="60000"/>
+		<property name="timeBetweenEvictionRunsMillis" value="60000"/>
+		<property name="minEvictableIdleTimeMillis" value="300000"/>
+		<property name="validationQuery" value="SELECT 'x'"/>
+		<property name="testWhileIdle" value="true"/>
+		<property name="testOnBorrow" value="false"/>
+		<property name="testOnReturn" value="false"/>
+		<property name="poolPreparedStatements" value="true"/>
+		<property name="maxPoolPreparedStatementPerConnectionSize" value="100"/>
+		<property name="filters" value="stat"/>
+	</pool>
+		<pool name="globalLog">
+		<property name="name" value="globallog"/>
+		<property name="url" value="jdbc:mysql://127.0.0.1:3306/mugloballog?useUnicode=true&amp;characterEncoding=UTF-8&amp;rewriteBatchedStatements=true"/>
+		<property name="username" value="root"/>
+		<property name="password" value="root"/>
+		<property name="initialSize" value="1"/>
+		<property name="minIdle" value="1"/>
+		<property name="maxActive" value="10"/>
+		<property name="maxWait" value="60000"/>
+		<property name="timeBetweenEvictionRunsMillis" value="60000"/>
+		<property name="minEvictableIdleTimeMillis" value="300000"/>
+		<property name="validationQuery" value="SELECT 'x'"/>
+		<property name="testWhileIdle" value="true"/>
+		<property name="testOnBorrow" value="false"/>
+		<property name="testOnReturn" value="false"/>
+		<property name="poolPreparedStatements" value="true"/>
+		<property name="maxPoolPreparedStatementPerConnectionSize" value="100"/>
+		<property name="filters" value="stat"/>
+	</pool>
+	<pool name="global">
+		<property name="url" value="jdbc:mysql://127.0.0.1:3306/muglobal?useUnicode=true&amp;characterEncoding=UTF-8&amp;rewriteBatchedStatements=true"/>
+		<property name="username" value="root"/>
+		<property name="password" value="root"/>	
+	</pool>
+</root>

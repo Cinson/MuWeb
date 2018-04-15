@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<!-- Appenders 输出处理器-->
+	<appender name="CONSOLE.ERR" class="org.apache.log4j.ConsoleAppender">
+		<param name="target" value="System.err" />						<!-- 当前处理器使用的输出流 -->
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%-d{yy-MM-dd HH:mm:ss} %5p %c{1}:%L - %m%n" /> 	<!-- 输出格式 -->
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="warn" />						<!-- 当前处理器处理日志最低级别: warn -->
+			<param name="LevelMax" value="fatal" />						<!-- 当前处理器处理日志最高级别: fatal -->
+			<param name="AcceptOnMatch" value="false" />
+		</filter>
+	</appender>
+
+	<appender name="CONSOLE.OUT" class="org.apache.log4j.ConsoleAppender">
+		<param name="target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%-d{yy-MM-dd HH:mm:ss} %5p %c{1}:%L - %m%n" />		
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="LevelMin" value="debug" />
+			<param name="LevelMax" value="info" />
+			<param name="AcceptOnMatch" value="false" />
+		</filter>
+	</appender>
+
+	<!-- Root Logger -->
+	<root>
+		<priority value="info" />					<!-- 配置输出日志级别 -->
+		<appender-ref ref="CONSOLE.ERR" />			<!-- 引用输出处理器 -->
+		<appender-ref ref="CONSOLE.OUT" />
+	</root>
+
+</log4j:configuration>

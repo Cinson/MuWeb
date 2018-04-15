@@ -1,0 +1,3 @@
+/*holy IE6&funny IE7,pretty IE8*/
+.g-user { background:none; }
+.g-user .ie { position:absolute; color:#fff; top:0; left:0; width:280px; height:340px; background:#000; filter:Alpha(opacity=60); z-index:-1; }

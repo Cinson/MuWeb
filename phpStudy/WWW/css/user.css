@@ -1,0 +1,121 @@
+#sidebar{ float: left; width: 160px; color: #666; overflow: hidden; }
+#sidebar h3{ padding: 8px 15px; border-bottom: 1px solid #CCC; border-bottom: 1px solid #CCC; font-size: 14px; color: #333; background:#fff;}
+#sidebar ul{ padding: 7px 0; background: #F8F8F8 url(../../images/side-bg.png) repeat-x; }
+#sidebar ul li{ padding: 6px 8px 7px; background: url(../../images/side-line.png) no-repeat 50% 100%; }
+#sidebar ul li.last{ height: auto !important; background: none !important; }
+#sidebar .link-list{  }
+#sidebar .link-list li{  }
+#sidebar .link-list li a{ margin: 0 auto; padding: 9px 10px; display: block; width: 107px; height: 18px; line-height: 18px; }
+#sidebar .link-list li a:hover{ background-color: #EBEBEB; border-radius:5px; text-decoration:none;}
+#sidebar .link-list li a.cur{ background: url(../../images/link-current-bg.png) no-repeat; color: #FFF; text-shadow: 1px 1px 0 #3A6FBD; }
+#uccontent{ float: right; width: 780px; background:#FFF; }
+
+.page-user .g-bd a{color: #0066CC;text-decoration:none;margin-bottom:10px;}
+.page-user .g-bd a:hover{color: #0066CC;text-decoration:underline;}
+.page-user .userinfo{	width:720px;overflow:hidden;padding:10px 0px;border-bottom:1px dotted #CCC;}
+.page-user .userinfo-pic{	width:200px;float:left;padding:20px 0px;text-align:center;overflow:hidden;}
+.page-user .userinfo-pic img{	display:block;width:120px;height:120px;margin:0px auto;margin-bottom:8px;}
+.page-user .userinfo-base{width:480px;overflow:hidden;border-left:1px dotted #DDD;float:left;line-height:200%;}
+.page-user .userinfo-base dt{width:100px;text-align:right;padding:6px 10px 6px 0px;float:left;overflow:hidden;color:#666;font-weight:normal;}
+.page-user .userinfo-base dd{display:block;width:360px;overflow:hidden;float:left;clear:right;padding:6px 0px;word-wrap:normal;text-overflow:ellipsis;}
+.page-user .userinfo-base dd span.breakline{margin:0px 8px;color:#CCC;}
+
+.page-user .secure-level{ background:#FAFAFA; border:5px solid #F0F0F0; padding:30px 25px;}
+.page-user .secure-level .bar{ display:inline-block; *display:inline; *zoom:1; width:280px; height:24px; vertical-align:middle; background:url(../../images/secure_level.gif); margin:0 15px;}
+.page-user .secure-level .bar-high{ background-position:0 0;}
+.page-user .secure-level .bar-medium{ background-position:0 -26px;}
+.page-user .secure-level .bar-low{ background-position:0 -52px;}
+.page-user .secure-level strong{ font-size:14px; margin:0 10px; color:#3C0;}
+
+.page-user ul.secure-status li{ float:left; width:100%; padding:25px 0; border-bottom:1px dotted #CCCCCC; margin-bottom:-1px;}
+.page-user ul.secure-status li h1{ float:left; width:140px; text-align:center; font-size:14px; line-height:150%; _margin-right:-3px;}
+.page-user ul.secure-status li .desc{ display:block; float:none; margin:0 210px 0 150px; _margin:0 207px 0 147px; padding-top:2px;line-height:20px;}
+.page-user ul.secure-status li .status{ float:right; width:180px; _margin-left:-3px; text-align:right; padding-right:20px;}
+.page-user ul.secure-status li .status a,
+.page-user ul.secure-status li .status span{ display:inline-block; *display:inline; *zoom:1; font-size:14px; font-weight:bold; margin-left:10px;}
+.page-user ul.secure-status li .status .unfinished{ color:#999999;}
+.page-user ul.secure-status li .status .unfinished-verify{ color:#999999;padding-left:20px; background:url(../../images/attention.png) 0 center no-repeat;}
+.page-user ul.secure-status li .status .finished{ color:#090; padding-left:20px; background:url(../../images/tick_small.gif) 0 center no-repeat;}
+
+.page-user .u-form .info {background: none repeat scroll 0 0 #F7F7F7;border: 1px solid #DDDDDD;padding: 10px;line-height:30px;}
+.mt10 {  margin-top: 5px;margin-top: 10px !important;}
+.ml10{margin-left: 5px;margin-left: 10px !important;}
+.uitip-success{ color:#090; padding-left:20px; background:url(../../images/tick_small.gif) 0 center no-repeat;}
+
+/* 简易数据表格-格边框 */
+.m-table{table-layout:fixed;width:100%;line-height:1.5; text-align:center; float:left;}
+.m-table th,.m-table td{padding:10px;border:1px solid #ddd;}
+.m-table th{font-weight:bold; text-align:center;}
+.m-table tbody tr.even{background:#fafafa;}
+.m-table tbody tr:hover{background:#f0f0f0;}
+.m-table .cola{width:100px;}
+.m-table .colb{width:200px;}
+/* 简易数据表格-行边框*/
+.m-table-row th,.m-table-row td{border-width:0 0 1px;}
+
+.m-table-new {table-layout:fixed;width:300px;margin-left:140px;margin-top:10px;line-height:1.5; text-align:center; float:left;}
+.m-table-new th,.m-table-new td{padding:10px;border:1px solid #ddd;}
+.m-table-new th{font-weight:bold; text-align:center;}
+.m-table-new tbody tr.even{background:#fafafa;}
+.m-table-new tbody tr:hover{background:#f0f0f0;}
+.m-table-new .cola{width:100px;}
+.m-table-new .colb{width:200px;}
+/* 简易数据表格-行边框*/
+.m-table-row th,.m-table-row td{border-width:0 0 1px;}
+
+.jfdh ul{ margin:0; padding:0; position: relative; zoom: 1;}
+.jfdh ul li{ list-style:none; width: 510px; float:left; margin-bottom: 12px;}
+.jfdh ul li .name{ width:120px; height: 30px; float:left;text-align:right; line-height: 30px; overflow:hidden; color: #888;}
+.jfdh ul li .zh{ width: 210px; height: 30px; float:left;overflow:hidden; background: url(../../images/payImg.png) no-repeat 5px -321px; padding-left: 5px;}
+.jfdh ul li .zh input{margin: 5px 0px 0px 10px;padding:0px;border:none;background:none;line-height:20px; height:20px;width:190px; outline:none;}
+.jfdh{ width:530px;float:left; margin-left:15px; margin-top: 50px; height: 35px; display: inline;}
+.jfdh .pay{ width: 130px; height: 35px; margin: 0px auto;}
+.jfdh .pay .tjBtn{border: none !important;margin: 0px;padding: 0px;width: 130px;height: 35px;text-indent: -999em;background: url(../../images/payImg1.png) no-repeat -91px -281px;cursor: pointer;display: block;}
+
+.right_cont {
+	float:left;
+	clear:both;
+	overflow:hidden;
+	background:#ffffff;
+
+	margin-bottom:32px;
+}
+/* 右侧高度限制 */
+.right_cont .limt { width:1px; height:450px; float:left;overflow:hidden;}
+
+/* 右侧内容框 */
+.right_cont .inbox { width:697px; float:left; overflow:hidden;} 
+
+.game_page { width:747px; height:28px; float:left; clear:both; background:url(../../images/gry_line.gif) bottom repeat-x; margin-bottom:33px; margin-top:12px;}
+.game_page li { width:80px; height:28px; float:left; background:url(../../images/pay_page_off.jpg) no-repeat; margin-right:5px; display:inline;}
+.game_page li a {width:80px; height:28px; float:left; text-align:center; line-height:28px;}
+.game_page li.select { background:url(../../images/pay_page_on.jpg) no-repeat;}
+.game_page li.select a:link,.game_page li.select a:visited {color:#434343 !important;text-decoration:none}
+.game_page li.select a:active,.game_page li.select a:hover {color:#434343 !important;text-decoration:none}
+
+
+
+
+
+
+/* 我的游戏 */
+
+.game_cont {width:655px; float:left; clear:both; border:1px solid #dddddd; padding:20px; margin-bottom:20px;}
+.game_sub { width:655px; height:200px; float:left; clear:both; overflow:hidden; border-bottom:1px dashed #dddddd; margin-bottom:17px;}
+.sub_left { width:195px; float:left;}
+.sub_left .game_pro { width:195px; height:151px; float:left; clear:both; overflow:hidden; margin-bottom:10px;}
+.sub_left .offical_web { width:70px; height:26px; float:left; background:url(../../images/offical_web.gif) no-repeat; margin-left:20px;}
+.sub_left .start_game { width:70px; height:26px; float:left; background:url(../../images/payit.gif) no-repeat; margin-left:10px;}
+
+.sub_right { width:440px; float:right;}
+.sub_right h3 { width:430px; height:32px; line-height:32px; font-weight:bold; font-size:12px; text-align:left; padding-left:10px;color:#434343; border-bottom:1px dotted #CCCCCC;}
+.sub_right ul {width:430px; height:90px; float:left; padding-top:20px; border-bottom:1px dotted #CCCCCC;}
+.sub_right ul li { width:187px; height:27px; float:left; background:url(../../images/game_sv_bg.gif) no-repeat; margin-left:15px; margin-bottom:15px; line-height:27px; padding-left:10px; display:inline;}
+.sv_name { width:100px; height:27px; float:left; text-align:left;}
+.ingame { width:67px; height:27px; float:right;}
+
+.sub_right .sv_log { width:425px; height:40px; float:left; line-height:40px; text-align:left; padding-left:15px; clear:both; overflow:hidden;}
+
+
+
+

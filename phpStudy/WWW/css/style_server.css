@@ -1,0 +1,30 @@
+body { background-image:url(../images/GameSkinExamples.jpg); }
+/* skin 1 */
+	
+	a { color:#c29f74; }
+	div.nav a, .g_header, .g_herald , div.user, .loginbox button, .g_list a
+		{ background-image:url(../images/skin-texture-2.png); background-repeat:no-repeat; }
+		
+	div.nav a { background-position:0 -100px; opacity:0.8; text-indent:-999em; }
+	div.nav a:hover { opacity:1; }
+	div.nav a.a_index { background-position:0 -172px; }
+	div.nav a.a_pay { background-position:-140px -172px; }
+	div.nav a.a_exchange { background-position:-280px -172px; }
+	div.nav a.a_favorite { background-position:-420px -172px; }
+	div.nav a.a_download { background-position:0 -221px; }
+	
+	div.user { color:#c29f74; border:none; background-position:0 -100px; box-shadow:none;  }
+		.loginbox input { background:#fff; color:#666; }
+		.loginbox button { background-position:-520px -221px; color:#fff; opacity:0.85; }
+		.loginbox button:hover, .loginbox button:focus { opacity:1; }	
+		.game_qq { border-color:#90703d; }	
+		.my_info_box a.link { color:#9f4529; }
+		
+		.g_header { text-indent:-999em; }
+		.g_herald { background-position:0 -50px; color:#fff3b9; }
+		.g_sort a{ background:#2b190f; border-radius:3px; color:#d18933; }
+		.g_sort a.on { background:#711901; color:#fff; }
+		.g_list a { color:#330600; background-position:-140px -221px; font-weight:100; }
+		.g_list a:hover { background-position:-330px -221px; }
+		.g_list a em { color:#fff95c; font-weight:100; }
+		.g_list a.new em { color:#ff0; }

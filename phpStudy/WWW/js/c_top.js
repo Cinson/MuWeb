@@ -1,0 +1,1 @@
+document.writeln("<ul class=\"kv-top-img\"><li style=\"background: url(../images/05200902srQoM.jpg) no-repeat center top;\"><a target=\"_blank\" title=\"连击版本\"></a></li></ul><ul class=\"kv-top-num\"><li>连击版本</li></ul>");

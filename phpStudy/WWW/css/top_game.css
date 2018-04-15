@@ -1,0 +1,138 @@
+
+.ime-wrapper {
+    position: absolute;
+    background: url(http://img.wan.sogou.com/cdn/image/ime-bg-8.png?t=20140305)
+    no-repeat;
+    width: 118px;
+    height: 99px;
+    background-position: 0 0;
+    left: 10px;
+    top: -94px
+}
+
+.close-ime {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.ime-wrapper .p1 {
+    color: #0b487e;
+    padding: 14px 0px 0px 16px;
+}
+
+.ime-wrapper .p2 {
+    color: #0b487e;
+    padding: 4px 10px 0px 16px;
+    line-height: 14px;
+}
+
+.ime-wrapper .view {
+    position: absolute;
+    bottom: 22px;
+    right: 12px;
+    text-decoration: underline;
+    color: #003cff;
+}
+.adwin-wp {
+    width: 230px;
+    height: 150px;
+    position: absolute;
+    background-color: #FFF;
+    top: 25px;
+    left: -82px;
+}
+
+.ad-iframe {
+    width: 230px;
+    height: 150px;
+    border: none;
+}
+
+.ad-bg {
+    width: 230px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(http://img.wan.sogou.com/cdn/image/ads_pop_bg2.png?t=20140305)
+    no-repeat;
+    background-position: 0 0;
+}
+
+.close-adwin {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 8px;
+    top: 11px;
+}
+
+.adwin-wp p {
+    padding: 44px 10px 0;
+    line-height: 22px;
+}
+
+.game-header a.ad-change {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: blue;
+    text-decoration: underline;
+}
+
+#gameiframe {
+//margin-top: -1px;
+    margin-bottom: -3px;
+}
+
+body {
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+}
+
+.wan_header {height:30px;position: relative;background: url(http://s0.wan.sogou.com/r4/img/shop/wan_header.png?t=20140305) repeat-x;}
+.wan_header .wan_header_left {float: left;padding-left: 35px;_padding-left: 25px;}
+.wan_header .wan_header_center {float: left;padding-left: 0px;_padding-left: 0px;}
+.wan_header .wan_header_center .neirong {font-size: 12px; font-family: SimSun; color:#ec6941;float: left; height: 12px; margin: 9px 0 0 0;_margin: 9px 0 0 10px;}
+.wan_header .wan_header_left .game_logo {float: left;width: 107px;height: 30px;background: url(/images/top/wan_logo.png) no-repeat;}
+.gonggao-carousel-wrapper .gg-title i,.wan_header .wan_header_right .long_line,.wan_header .info_list .wan_a  i,
+.wan_header .close_head i,.wan_header .info_list .short_line {background: url(http://s2.wan.sogou.com/r4/img/shop/wan_pic.jpg?t=20140305) no-repeat;}
+.gonggao-carousel-wrapper { font-size: 12px; font-family: SimSun; float: left; height: 12px; margin: 9px 0 0 80px;_margin: 9px 0 0 70px;}
+.gonggao-carousel { float: left; position: relative; width: 250px; height: 12px; overflow: hidden;}
+.gonggao-carousel .player-item { white-space: nowrap; width: 250px;}
+.gonggao-carousel-wrapper .gg-title { float: left; width: 15px;height: 11px;margin-right: 10px;}
+.gonggao-carousel-wrapper .gg-title i {width: 14px;height: 11px; background-position: 0 0; display: block;margin-top: 1px;overflow:hidden;}
+.gonggao-carousel .player-item a {color:#ec6941;text-decoration: none;}
+
+.wan_header .wan_header_right {float: right;}
+.wan_header .wan_header_right .long_line {width: 2px;height: 30px;background-position: -92px 0;float: left;}
+.wan_header .info_list .short_line {width: 2px;height: 15px;float: left;background-position: -96px 0;}
+.wan_header .info_list {float: left;height: 30px;list-style: none;margin:0;padding:0;font-size: 12px;}
+.wan_header .info_list  li {float: left;height: 15px;margin: 7px 0;}
+.wan_header .info_list .wan_a {float: left;line-height: 15px;padding:0 15px 0 34px;position: relative;color: #b4b5b6;text-decoration: none;}
+.wan_header .info_list .wan_a i {position: absolute;left: 15px;overflow:hidden;}
+.wan_header .info_list .wan_a .gw {width: 12px;height: 12px;background-position: -15px 0;top: 3px;}
+.wan_header .info_list .wan_a .pay {width: 14px;height: 9px;background-position: -28px 0;top: 3px;}
+.wan_header .info_list .wan_a .feedback{width: 11px;height: 10px;background-position: -43px 0;top:3px;}
+.wan_header .info_list .wan_a .mes{width: 12px;height: 11px;background-position: -55px 0;top: 3px;}
+
+.wan_header .info_list .wan_a .collect{width: 14px;height: 15px;background-position: -68px 0;top: 0;}
+.wan_header .info_list .wan_a .gift {background-position: 0 -13px;width: 30px;height: 30px;top: -7px;left: 4px;}
+.wan_header .info_list .wan_a .hideimg {display:none;}
+#gamehall-gift {display:none;}
+#gamehall-gift img {position: absolute;width:30px;height:30px;top: -7px;left: 4px;}
+
+.wan_header .close_head {width: 38px;height: 30px;float: left;}
+.wan_header .close_head i {width: 8px;height: 8px;margin: 11px 15px;display: block;background-position: -83px 0;overflow:hidden;}
+#mes .msg-count { color:#ec6941;right:0;top: 1px; position:relative;font-weight:500;background: none;}
+.side-menu-wrapper { top: 37px;}
+#game_win { *margin-top: 4px;}
+
+.side-ad-wrp { position: absolute; top: 37px; left: 0; width: 145px; display: none;}
+.side-ad-wrapper { position:relative; width: 145px; display: none;}
+.side-ad-wrapper img { display: block; width: 145px;}
+.close-add { position: absolute; top: 10px; right: 10px; color: #fff;}

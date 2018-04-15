@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<server v="31">
+	<login ip="127.0.0.1" port="14189"/>
+	<res ip="http://127.0.0.1/qj/res"/>
+	<cfgpath ip="http://127.0.0.1/qj/configs"/>
+	<showfps>false</showfps>
+</server>

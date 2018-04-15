@@ -1,0 +1,69 @@
+/* =s Reset */
+html{color:#000; height:100%;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select,button{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+legend{color:#000;}
+header,section,footer,nav{display: block;}
+/* =e Reset */
+/* =s base */
+body{font-family:"Microsoft YaHei",simSun,"Lucida Grande","Lucida Sans Unicode",Arial;line-height:170%;font-size:12px;color:#000;min-width:1180px; background:#fff; height:100%;}
+a{color:#666;text-decoration: none;}
+a:hover{color:#39c;text-decoration: underline;}
+a.under:link,a.under:active,a.under:visited,a.under:hover{text-decoration:underline;}
+/* =e base */
+
+.main { margin:20px; }
+
+.data_list { width:100%; text-align:center; }
+.data_list th, .data_list td { border:1px solid #c2d1d8; padding:10px; }
+.data_list thead th, .data_list thead td { background:#eff5f6; color:#506e7c; padding:8px 10px; }
+.data_list tbody tr:hover { background:#f7fbfc;}
+.data_list tbody tr:nth-child(even) { background:#f7fbfc; }
+.data_list .op_link a{ color:#275d96; }
+.data_list .op_link span{ color:#ddd; margin:auto 10px;}
+.data_list .op_link span:after { content:"|"; }
+
+.tab_form {  width:100%; }
+.tab_form th, .tab_form td { border:1px solid #c2d1d8; padding:8px; }
+.tab_form th { width:120px; text-align:left; }
+.tab_form tr:nth-child(even) { background:#f7fbfc;  }
+.tab_form input , .tab_form select { border:1px solid #acbec6; padding:4px; line-height:18px; vertical-align:middle; margin-right:5px;}
+.tab_form label { margin-right:1em; }
+
+
+/*时间控件*/
+#ui-datepicker-div {display:none;}
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }  
+.ui-timepicker-div dl { text-align: left; }  
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }  
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }  
+.ui-timepicker-div td { font-size: 90%; }  
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; } 
+
+
+
+.page_fen {
+  font-size: 14px;
+  height: 30px;
+  background: #ffffff;
+  margin: 5px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #aaa;
+}
+
+.page_fen li {
+  display: inline;
+  margin-right: 10px;
+}

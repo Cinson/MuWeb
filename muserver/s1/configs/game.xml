@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<root serverid = "1" name="1服" open843="false" allowError="false" pwlogin="true" userdb="xqjuser">	
+	<game port="4088" line="true" gmcommond="false" allrole="false" parser="1" interService="false"/>
+	<fcm value="false" url="http://baidu.com"/>
+	<gateway port="4089"/>
+	<servlet port="7417"/>
+	<login host="127.0.0.1" servletport="7517" />
+	<white isOpen="false">
+		<user>081EEE335E0D177899F55F3D8AD0BADD</user>
+		<user>1F07F4372FAB28EDEC2ABB3968EC5645</user>
+		<user>6C55F1196ACBC607A8F944B12E90BD57</user>
+		<user>CC84C82BD4B80513FDE4F49CFB0398B3</user>
+		<user>8DDC476D57B2DA114D292D05120DC317</user>
+		<user>F5FF7F959A395B0A389CF6277581F6AB</user>
+		<user>1347E9666F753B2C3340BBC102F2BC5E</user>
+		<user>382900D0E715835254EF9E72BA89837C</user>
+		<user>027B8492273DF17E2E33D07CE000AA6C</user>
+		<user>20A89E517F9E89B5CCE510F923D4D952</user>
+		<user>01643CB84E680A968DDBAEFB3D5AD3F2</user>
+		<user>B7BCF1B3ACFEAC8C594F66B87F3DF23D</user>
+		<user>41EB8E171FD40698DEF1A7A25C225A02</user>
+	</white>
+</root>

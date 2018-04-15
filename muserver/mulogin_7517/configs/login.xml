@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<global>	
+	<login parser="6" port="7517" gameid="54" platformid="6" gamename="生命之光" isFcm="false" defaultServer="10"/>	
+	<key>
+		<login>aZje0Ect4C7NBo2svnF5YOKqy6JTzARu</login>
+		<pay>AjctIqmHW4lZ6SoVJfvpBh1RwPTN0Uns</pay>
+		<app>4fb63449014fde245b7b4691ee103562</app>
+		<cert>8a9a538c4fb63449014fee1035624692</cert>
+		<gkey>yhqj</gkey>
+		<apiId>12206</apiId>
+	</key>
+	<url>
+		<game>http://127.0.0.1/qj/gl/index.html</game>
+		<test>http://127.0.0.1/qj/gl/index.html</test>
+		<home></home>
+		<pay></pay>
+		<client>http://127.0.0.1/gl</client>
+	</url>	
+	<fcm value="false" url=""/>
+</global>
+

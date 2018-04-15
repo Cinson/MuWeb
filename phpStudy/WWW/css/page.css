@@ -1,0 +1,470 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*================hall=======================*/
+.gameType{}
+.newSer h1{background:url(http://www.dahei.com/style/img/hall.gif) 1px 0px no-repeat; height:52px; text-indent:-999em;}
+.newSer h3,.bbsHot h3{height:38px;padding-top:2px;background:url(http://www.dahei.com/style/img/col3H3.gif) no-repeat;}
+.newSer h3 span,.newsNav h3 span,.gameNews h3 span,.bbsHot h3 span{height:34px;line-height:34px;display:block;padding-left:30px;font-size:14px;color:#444;background:url(http://www.dahei.com/style/img/ico.gif) no-repeat 5px -178px;}
+
+.newSer{width:237px;}
+.newSer h3 span{background:url(http://www.dahei.com/style/img/ico.gif) no-repeat 5px -217px;}
+.newSer ul{width:236px;margin:0 auto;}
+.newSer li{border-bottom:1px dotted #cecece;height:23px;line-height:23px;padding:7px 0 6px 0;overflow:hidden;cursor:default;}
+.newSer li span,.newSer li strong{color:#504f4f;display:inline-block;float:left;}
+.newSer li span{width:60px;padding:0 0 0 15px;}
+.newSer li strong{width:110px;font-weight:normal;}
+.newSer li em{width:75px;color:#504f4f;}
+.newSer li a{color:#504f4f;}
+.newSer ul li.lOn{height:32px;line-height:32px;padding:9px 0;background:#f3f3f3;overflow:hidden;cursor:default;}
+.newSer li.lOn strong{display:none;}
+.newSer li a:hover{color:#f60;}
+.newSer li strong a,.newSer li strong b{display:inline-block;width:45px;font-weight:normal;}
+.newSer li var{background:url(http://www.dahei.com/style/img/serstate1.gif);display:inline-block;height:15px;margin:0 0 0 3px;overflow:hidden;width:51px;vertical-align:middle;}
+.newSer li.s1 var{background-position:0 -15px;}
+.newSer li.s2 var{background-position:0 -90px;}
+.newSer li.s3 var{background-position:0 -75px;}
+.newSer li.s4 var{background-position:0 -45px;}
+.newSer li.s5 var{background-position:0 -105px;}
+.newSer li.s6 var{background-position:0 -120px;}
+.newSer li.s7 var{background-position:0 -30px;}
+.newSer li.s8 var{background-position:0 -60px;}
+.newSer li.s9 var{background-position:0 -135px;}
+.newSer li.s10 var{background-position:0 0;}
+.newSer li span.nb1,.newSer li span.nb2{padding:0;width:70px;margin:0 5px 0 0;display:none;}
+.newSer li span.nb2{float:right;margin:0 16px 0 0;}
+.newSer .nb1 a,.newSer .nb2 a{display:inline-block;height:32px;width:70px;text-align:center;}
+.newSer .nb1 a{background:url(http://www.dahei.com/style/img/newSer0218.jpg) no-repeat;color:#bd5400;}
+.newSer .nb2 a{background:url(http://www.dahei.com/style/img/newSer0218.jpg) 0 -32px no-repeat;color:#446d00;}
+.newSer .nb1 a:hover,.newSer .nb2 a:hover{color:#000;}
+.newSer li.lOn span.nb1,.newSer li.lOn span.nb2{display:inline-block;}
+.newSer li.soon span.nb1{margin:0 0 0 75px;}
+.newSer li.lOn em,.newSer li.lOn var{display:none;}
+.newSer .retract a{margin:9px 0 0;_margin:10px 0 0;display:block;height:17px;overflow:hidden;width:325px;background:url(http://www.dahei.com/style/img/newsBg.png) 0 -695px no-repeat;}
+.newSer .retract a:hover{background:url(http://www.dahei.com/style/img/newsBg.png) 0 -443px no-repeat;}
+
+.hot{height:246px;position:relative;width:746px;overflow:hidden;}
+.hot dl{float:left;width:355px;height:220px;overflow:hidden;margin:8px 18px 0 0;background:url(http://www.dahei.com/style/img/hall0224.jpg) 0 176px no-repeat;}
+.hot .d1{float:left;}
+.hot .d1 h4{padding:0 0 0 17px;}
+.hot .d1 h4 a{color:#333;font:normal bold 14px/44px Arial, Helvetica, sans-serif;}
+.hot .d1 h4 a:hover{color:#f30;}
+.hot dt{position:relative;}
+.hot var{background:url("img/ico.gif") 0 -118px no-repeat;display:inline-block;height:10px;margin:7px 0 0 5px;width:10px;}
+.hot .ap1{padding:7px 7px 0 0;}
+.hot .ap1 a{display:inline-block;width:105px;height:31px;color:#446d00;line-height:31px;text-align:center;background:url(http://www.dahei.com/style/img/hall0224.jpg) -355px 0 no-repeat;font-size:14px;}
+.hot .ap1 a:hover{color:#000;}
+.hot .d2{float:right;_margin:-45px 0 0;}
+.hot .d3{position:absolute;width:355px;background:#fff;z-index:99;top:66px;height:110px;left:0;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* ie8  */
+filter:alpha(opacity=90);/* ie5-7  */
+opacity: 0.9;/* css standard, currently it works in most modern browsers  */
+}
+.hot .d3 p{padding:12px 18px;line-height:20px;color:#333;}
+.hot .d31,.hot .d32{float:left;}
+.hot .d31{margin:0 20px 0 160px;}
+.hot .d31 a,.hot .d32 a{color:#f30;padding:0 0 0 23px; background-image:url(http://www.dahei.com/style/img/hall_ico.gif);background-repeat:no-repeat;}
+.hot .d31 a:hover,.hot .d32 a:hover{color:#000;}
+.hot .d31 a{background-position:0 0;}
+.hot .d32 a{background-position:0 -25px;}
+
+.gameType{clear:both;height:60px;width:708px;background:url(http://www.dahei.com/style/img/hall0224.jpg) 0 -44px no-repeat;padding:14px 0 0 20px;}
+.gameType dt,.gameType dd{float:left;padding:0 10px 6px 0;line-height:21px;}
+.gameType dt{clear:left;color:#888;width:80px;}
+.gameType dd{width:600px;}
+.gameType dd a{color:#414141;margin:0 5px 0 0;display:inline-block;width:56px;height:21px;text-align:center;}
+.gameType dd a:hover,.gameType dd a.aOn{background:url(http://www.dahei.com/style/img/hall0224.jpg) -535px 0 no-repeat;color:#fff;}
+.noType{text-align:center;margin:20px 0;}
+
+.gameDiv{width:728px;overflow:hidden;}
+.gameDiv ul{width:747px;zoom:1;min-height:655px;_height:655px;}
+.gameDiv li{float:left;width:115px;height:106px;padding:18px 18px 3px 115px;overflow:hidden;border-bottom:1px dotted #cecece;margin:3px 0 0;background:#fff; position:relative;}
+.gameDiv li.on{background:url(http://www.dahei.com/style/img/hall0224.jpg) -728px 0 no-repeat; position:relative;}
+.gameDiv .pic{float:left;padding:0 12px 0 0; position:absolute;left:20px;top:18px;}
+.gameDiv img{float:left;}
+.gameDiv h4{font:normal bold 14px/36px Arial, Helvetica, sans-serif;}
+.gameDiv h4 a{color:#333;}
+.gameDiv h4 a:hover{color:#f30;}
+.gameDiv .ap1{padding:8px 0 0;}
+.gameDiv .ap1 a{display:inline-block;width:75px;height:26px;text-align:center;background:url(http://www.dahei.com/style/img/hall0224.jpg) -460px 0 no-repeat;line-height:26px;color:#446d00;}
+.gameDiv .ap1 a:hover{color:#000;}
+.gameDiv .ap2 span{color:#696969;padding:0 5px;display:inline-block;height:10px;overflow:hidden;vertical-align:middle;margin:-2px 0 0;}
+.gameDiv .ap2 a:hover{color:#f30;}
+.gameDiv .ap2 a{color:#696969;}
+
+.gameDiv dl{width:697px;height:120px;padding:28px 20px 0;background:url(http://www.dahei.com/style/img/dotted.gif) repeat-x 0 bottom;}
+.gameDiv dl.dlOn{background:url(http://www.dahei.com/style/img/dlOn.gif) repeat-x 0 0;}
+.gameDiv dt{width:87px;height:120px;float:left;}
+.gameDiv dd{float:left;}
+.gameDiv dd.d1{width:450px;margin:0 20px 0 30px;}
+.info{height:20px;line-height:20px;}
+.info h4,.info span,.info em{float:left;}
+.info span,.info em{margin:4px 0 0;}
+.gameDiv dd h4{line-height:30px;}
+.info h4 a{color:#000;font-size:14px;display:inline-block;line-height:14px;margin:0;}
+.info h4 a:hover{color:#f60;}
+.info h4 var{width:10px;height:10px;margin:7px 0 0 8px;background:url(http://www.dahei.com/style/img/ico.gif) no-repeat 0 -118px;font-size:0;display:inline-block;}
+.info span{color:#7d7d7d;margin:4px 20px 0;_display:inline;}
+.info em{color:#f25500;}
+.gameDiv dd.d1 p{color:#808080;line-height:20px;clear:left;}
+.gameDiv dd.d1 p span{color:#000;}
+.gameDiv dd.d2{width:104px;padding-top:25px;float:right;}
+.ap1{margin-bottom:10px;}
+.noType{width:736px;height:92px;padding-bottom:2px;background:url(http://www.dahei.com/style/img/dotted.gif) repeat-x 0 bottom;}
+.noType img{width:589px;height:92px;margin:0 auto;display:block;}
+
+.gameDiv p.more{padding:0 0 20px;text-align:center;clear:both;float:none;}
+.gameDiv p.more a{display:block;width:162px;height:42px;font:normal bold 16px/38px "微软雅黑";color:#068cb0;margin:0 auto;background:url(http://www.dahei.com/style/img/moreGame1.gif) no-repeat;}
+.gameDiv p.more a:hover{color:#f60;}
+
+/*================news list=======================*/
+.newsNav{}
+.newsNav h3,.gameNews h3{margin-bottom:0;}
+.newsNav h1{ height:52px; background:url(http://www.dahei.com/style/img/zxzx.gif) no-repeat; text-indent:-999em;}
+.newsNav h3{height:34px;padding:4px 0 1px;background:url(http://www.dahei.com/style/img/col3H3.gif) no-repeat 0 -1px;}
+.newsNav h3 span,.gameNews h3 span{background:url(http://www.dahei.com/style/img/ico.gif) no-repeat 5px -255px;}
+.newsNav h3.er{ height:39px; padding:0px; background:none;}
+.newsNav h3.er a{ height:34px;padding:4px 0 1px;background:url(http://www.dahei.com/style/img/col3H3.gif) no-repeat 0 -1px; display:block;}
+.newsNav h3.er a span{ background-position:4px -837px;}
+.newsNav h3.er a:hover{background:url(http://www.dahei.com/style/img/col3H3on.gif) 0px -1px no-repeat}
+.newsNav h3.er a:hover span{ background-position:4px -864px;}
+
+.newsNav .moreNews p a:hover,.newsNav .moreNews p a.aOn{color:#fff;background:url(http://www.dahei.com/style/img/gameOn.jpg) left 0 no-repeat; }
+.newsNav .moreNews p a:hover span,.newsNav .moreNews p a.aOn span{display:block;background:url(http://www.dahei.com/style/img/gameOn.jpg) right 0 no-repeat;}
+
+.newsNav ul{width:237px;}
+.newsNav ul li{width:237px;height:52px;border-bottom:1px solid #e0e0e0;}
+.newsNav ul li.lOn a,.newsNav ul li.liCur a,.newsNav ul li a:hover{background:url(http://www.dahei.com/style/img/giftLiOn.gif) no-repeat;}
+.newsNav li a{width:175px;height:39px;padding:13px 0 0 62px;cursor:pointer;display:block;}
+.newsNav li a img{width:28px;height:35px;float:left;}
+.newsNav li a span{height:25px;line-height:25px;padding-left:8px;font-size:14px;color:#444;float:left;}
+.newsNav li a:hover span,.newsNav ul li.liCur a span{color:#248bd4;}
+
+
+.moreNews{width:236px;padding:15px 0;}
+.moreNews p{width:90px;height:24px;margin:0 0 8px 8px;float:left;_display:inline; padding-left:14px;}
+.moreNews p a{color:#333; height:17px; line-height:17px; text-align:left; padding-left:10px; float:left; margin:0px auto;}
+.moreNews p a span{ padding-right:10px;}
+.moreNews p a:hover,.moreNews p a.aOn{color:#fff;background:url(http://www.dahei.com/style/img/gameOn2.jpg) left 0 no-repeat; }
+.moreNews p a:hover span,.moreNews p a.aOn span{background:url(http://www.dahei.com/style/img/gameOn2.jpg) right 0 no-repeat;}
+
+
+
+.gameNews{}
+.gameNews h1{ height:52px; background:url(http://www.dahei.com/style/img/sergame.jpg) no-repeat;}
+.gameNews h1 span{display: block;height: 39px; padding: 13px 0 0 35px; width: 175px;}
+.gameNews h1 span img{float: left;height: 35px;width: 28px;}
+.gameNews h1 span em{height:25px;line-height:25px;padding-left:8px;font-size:18px;color:#fff;float:left;}
+.gameNews h3{height:35px;padding:4px 0 0;background:url(http://www.dahei.com/style/img/col3H3.gif) no-repeat 0 -1px;}
+.gn2 h3{padding:5px 0 0 0;background:url(http://www.dahei.com/style/img/col3H3.gif) no-repeat 0 0px;}
+.gameNews ul,.bbsHot ul{width:236px;margin:0 auto;}
+.gameNews ul li,.bbsHot ul li{width:226px;height:18px;line-height:18px;padding:8px 10px 8px 0;background:url(http://www.dahei.com/style/img/dotted.gif) repeat-x 0 bottom;vertical-align:top;}
+.gameNews ul li.last{padding:8px 10px 7px 0;background:none; overflow:hidden;}
+.gn2 ul li.last{padding:8px 10px 8px 0;background:url(http://www.dahei.com/style/img/dotted.gif) repeat-x 0 bottom;}
+.gameNews li a,.bbsHot li a{padding-left:25px;color:#504f4f;background:url(http://www.dahei.com/style/img/ico.gif) no-repeat 10px -9px;float:left;height:20px;overflow:hidden;width:168px;}
+.gameNews li span,.bbsHot li span{height:18px;color:#504f4f;float:right;}
+.gameNews ul li.lOn,.bbsHot ul li.lOn{background:#f60 url(http://www.dahei.com/style/img/newsNav.gif) no-repeat 0 -102px;}
+.gameNews ul li.lOn a,.gameNews ul li.lOn span,.bbsHot ul li.lOn a,.bbsHot ul li.lOn span{color:#f60;}
+
+.newsPic{width:738px;height:106px;margin-bottom:18px;}
+
+.diary{height:100px;padding-top:6px;margin-bottom:18px;background:url(http://www.dahei.com/style/img/diaryBg.gif) no-repeat;}
+.timer{width:140px;float:left;}
+.timer p{height:22px;line-height:22px;font-size:14px; text-align:center;}
+#year{color:#6e6e6e;}
+#day{height:50px;line-height:50px;font-size:45px; font-weight:bold;color:#3ca000;}
+#weekday{color:#000;}
+
+.diary ul{width:588px;float:right;}
+.diary ul li{width:179px;height:93px;margin-right:17px;float:left;_display:inline;}
+.newsCon{width:738px;}
+.newsCon h4{height:39px;padding-bottom:7px;margin-bottom:10px;background:url(http://www.dahei.com/style/img/line3.gif) no-repeat 0 bottom;}
+.newsCon h4 a{width:77px;height:39px;line-height:33px;text-align:center;font-family:"Microsoft YaHei","\5b8b\4f53", Arial, sans-serif;font-size:14px;color:#353535;background:url(http://www.dahei.com/style/img/line2.gif) no-repeat right 0;float:left;}
+.newsCon h4 a:hover{color:#353535;background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat -85px -114px;}
+.newsCon h4 a.aOn,.newsCon h4 a.aOn:hover{color:#fff;background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat 0 -114px;}
+.newsBox{width:738px;}
+.newsList{width:738px;min-height:532px;_height:532px;margin-bottom:5px;}
+.newsList li{width:708px;height:18px;line-height:18px;padding:10px 15px 10px;background:url(http://www.dahei.com/style/img/dotted.gif) repeat-x 0 bottom; vertical-align:top;}
+.newsList li a{color:#494949;float:left;}
+.newsList li a:hover{color:#f60;}
+.newsList li em{width:35px;height:18px;padding-left:15px;margin-right:20px;color:#494949;background:url(http://www.dahei.com/style/img/ico.gif) no-repeat 0 -308px;float:left;}
+.newsList li span{color:#000;float:right;}
+.newsList li.lOn{}
+.newsList li.lOn a,.newsList li.lOn em,.newsList li.lOn span{color:#f60;}
+
+
+.content{width:968px;margin:0 auto; position:relative; padding-bottom:60px;}
+.content h1{line-height: 25px;text-align: center;margin:0 auto 18px;padding:20px 0 10px;color:#444;font-size: 16px;background:url(http://www.dahei.com/style/img/con_hr.jpg) no-repeat 0 bottom;}
+.content h1 strong{font-weight: normal;}
+.content h1 var{color:#444;display: block;font-size: 12px;}
+
+.content dl{height:166px;padding:0 15px 0 10px;border-bottom:1px solid #dcdcdc;background:url(http://www.dahei.com/style/img/conbg.jpg) center top no-repeat; padding:0px 26px;}
+.content dt{width:573px;height:143px;float:left; margin:5px 0 0 5px;}
+.content dd{width:315px;height:133px;padding-top:10px;float:right;}
+.content dd a{width:121px;height:32px;margin-bottom:13px;text-indent:-999em;overflow:hidden;background-image:url(http://www.dahei.com/style/img/btn.jpg);float:left;}
+.conbnt{ height:90px;}
+.conbnt a{ float:left; margin-bottom:10px;background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat; margin-right:15px;}
+.conbnt a.a1{ background-position:0 -1470px; width:139px; height:37px;}
+.conbnt a.a2{ background-position:0 -1550px; width:138px; height:37px;}
+.conbnt a.a3{ background-position:0 -1630px; width:138px; height:40px;}
+.conbnt a.a4{ background-position:0 -1716px; width:138px; height:40px;}
+.conbnt a.a1:hover{ background-position:0 -1510px;}
+.conbnt a.a2:hover{ background-position:0 -1590px;}
+.conbnt a.a3:hover{ background-position:0 -1673px;}
+.conbnt a.a4:hover{ background-position:0 -1759px;}
+
+.content dd a.gHome{background-position:0 -489px;}
+.content dd a.gBbs{background-position:0 -521px;}
+.content dd a.gIn{height:37px;margin-bottom:0;background-position:0 -553px;}
+.content dd a.gHome:hover{background-position:-129px -489px;}
+.content dd a.gBbs:hover{background-position:-129px -521px;}
+.content dd a.gIn:hover{background-position:-129px -553px;}
+.conT{ height:45px; text-align:center; padding-right:25px;}
+.capter{width:915px;margin:0 auto;color:#333132;line-height:25px;padding:25px 0;position:relative;}
+
+
+
+/*================ser=======================*/
+.bbsHot{}
+.bbsHot h3{margin-bottom:0;}
+.bbsHot h3 span{background:url(http://www.dahei.com/style/img/ico.gif) no-repeat 0 -539px;}
+
+.serGame{width:738px;height:220px;margin-bottom:15px;}
+.serDiv{height:181px;margin-bottom:10px; position:relative;}
+.serDiv img{width:737px;height:181px;display:block;}
+.serDiv dl{width:737px;height:25px;padding:5px 0;background:url(http://www.dahei.com/style/img/serDlBg.gif) no-repeat; position:absolute;left:0;bottom:0;_bottom:2px;}
+.serDiv dt{width:280px;height:25px;float:right;}
+.serDiv dt a{width:53px;height:25px;line-height:25px;_line-height:27px;padding-left:24px;margin-left:14px;color:#444;float:left;_overflow:hidden;}
+.serDiv dt a:hover{color:#f60;}
+.serDiv dt a.sa1{background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat 0 -1103px;}
+.serDiv dt a.sa2{background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat -80px -1103px;}
+.serDiv dt a.sa3{background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat -160px -1103px;}
+.serDiv dd{width:450px;height:25px;float:left;}
+.serDiv dd p{height:25px;line-height:26px;}
+.serDiv dd p.pp1{padding-left:30px;}
+.serDiv dd p.pp1 strong{height:25px;font-size:14px;float:left;}
+.serDiv dd p.pp1 span{height:25px;margin:0 20px;color:#7d7d7d;float:left;}
+.serDiv dd p.pp1 em{color:#f25500;float:left;}
+/*.serDiv dd p.pp1 a{width:151px;height:41px; text-indent:-999em;overflow:hidden;background:url(http://www.dahei.com/style/img/downBtn.gif) no-repeat;display:block;position:absolute;left:50%;top:-6px;margin-left:-75px;}
+.serDiv dd p.pp1 a:hover{background:url(http://www.dahei.com/style/img/downBtn.gif) no-repeat 0 -42px;}
+*/
+.serDiv dd p.pp1 a{width:180px;height:48px;display:block;position:absolute;left:50%;top:-9px;margin-left:-90px;}
+
+.quickLink{height:18px;line-height:18px;color:#7d7d7d;padding-left:20px;}
+.quickLink a{color:#7d7d7d;margin:0 5px;}
+.quickLink a:hover{color:#f60;}
+
+.advance{width:738px;height:55px;margin-bottom:25px;font-size:32px;color:#444;}
+.advance dl{height:49px;padding:0 0 1px 85px;background:url(http://www.dahei.com/style/img/dotted.gif) repeat-x 0 bottom;}
+.advance dt{height:41px;float:left;}
+.advance dt span{color:#f55600;}
+.advance dd{width:160px;height:41px;margin-left:20px;float:left;}
+.advance dd .dFont{width:80px;}
+.advance dd .dSwf{*margin-top:8px;margin-top:8px\0;}
+
+
+.serBox{width:738px; position:relative;}
+.serTab{height:37px;background:url(http://www.dahei.com/style/img/line3.gif) no-repeat center bottom;padding-left:10px;padding-top:6px;}
+.serTab a{width:88px;height:27px;line-height:27px;margin:0 2px; text-align:center;color:#fff;background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat 0 -1132px;float:left;}
+.serTab a:hover,.serTab a.aOn{color:#fff;background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat -90px -1132px;}
+
+.serList{padding-top:10px;}
+.quick{height:32px; position:absolute;right:0;top:-4px;}
+.quick p{width:265px;height:32px;line-height:32px;color:#000;float:right;_display:inline;}
+.quick p input{width:86px;height:24px;line-height:24px;border:1px solid #e6e6e6;color:#000;background-color:#e6e6e6;margin:0 5px;text-align:center;}
+.quick p button{width:103px;height:32px;text-indent:-999em;overflow:hidden;background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat 0 -327px;}
+.quick p button.on{background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat 0 -359px;}
+
+.serList ul{min-height:215px;_height:215px;margin:0 auto;padding-bottom:1px;}
+.serList ul li{width:240px;height:35px;margin-left:5px;float:left;_display:inline;}
+.serList li a,.serList li b{width:154px;height:35px;line-height:35px;color:#444;float:left;}
+.serList li a em{display:inline-block;margin-left:5px;color:#0ea1e6;font-size:12px;}
+.serList li a:hover{color:#f60;}
+.serList li var{width:70px;height:15px; margin:10px 0 0 5px;text-indent:-999em;background-image:url(http://www.dahei.com/style/img/serstate.gif);float:left;_overflow:hidden;}
+
+.serList li var.s1{background-position:0 -15px; }
+.serList li var.s2{background-position:0 -90px; }
+.serList li var.s3{background-position:0 -75px; }
+.serList li var.s4{background-position:0 -45px; }
+.serList li var.s5{background-position:0 -105px; }
+.serList li var.s6{background-position:0 -120px; }
+.serList li var.s7{background-position:0 -30px; }
+.serList li var.s8{background-position:0 -60px; }
+.serList li var.s9{background-position:0 -135px; }
+.serList li var.s10{background-position:0 0; }
+
+
+.serTip{width:717px;height:90px;padding-top:104px;margin:24px 0 24px 6px;background:url(http://www.dahei.com/style/img/serTip.gif) no-repeat;}
+.serTip p{width:430px;height:25px;line-height:25px;margin-left:198px;font-size:16px;color:#fb3939;}
+
+.firstSer{width:738px;height:210px;margin-bottom:25px;background:url(http://www.dahei.com/style/img/dotted.gif) repeat-x 0 bottom;}
+.firstSer dl{width:738px;padding-top:60px;background:url(http://www.dahei.com/style/img/line3.gif) no-repeat 0 0;}
+.firstSer dt{height:35px;line-height:35px;margin-bottom:15px; text-align:center;font-size:32px;color:#444;}
+.firstSer dt strong{color:#f55600; font-weight:normal;}
+.firstSer dt span{color:#1ba600;}
+.firstSer dd{height:41px;}
+.dFont{line-height:41px; text-align:center;font-size:18px;color:#444;}
+.dSwf{width:160px;height:41px;margin:0 auto;}
+
+
+.gameBox{}
+.gameBox h3{height:25px;line-height:25px;margin-bottom:25px;padding-left:10px;font-size:14px;color:#000;}
+.gameBox ul{width:675px;height:120px;margin:0 auto;}
+.gameBox ul li{width:200px;height:120px;margin-right:25px;float:left;_display:inline; position:relative;}
+.gameBox ul li img,.aImg{width:87px;height:120px;display:block;position:absolute;left:0;top:0;}
+.gameBox ul li a.aImg img{height:87px;display:none;}
+.aImg{height:87px;background:url(http://www.dahei.com/style/img/blank.gif) no-repeat;z-index:1;}
+
+.gInfo{width:95px;height:120px;float:right;}
+.gInfo h4{height:25px;line-height:25px;}
+.gInfo h4 a{color:#000;font-family:"Microsoft YaHei","\5b8b\4f53", Arial, sans-serif;font-size:14px;float:left;}
+.gInfo h4 a:hover,.gInfo p a:hover{color:#f60;}
+.gInfo h4 var{width:10px;height:10px;margin:8px 0 0 8px;background:url(http://www.dahei.com/style/img/ico.gif) no-repeat 0 -118px; font-size:0;float:left;}
+
+.gInfo p{height:22px;line-height:22px;color:#7d7d7d;}
+.gInfo p strong{font-size:14px;color:#f25500;}
+.gInfo p em{color:#f25500;}
+.gInfo p a{color:#525252;float:left;}
+.gInfo p span,.gN p span{width:15px;height:22px;background:url(http://www.dahei.com/style/img/spanLine.gif) no-repeat center center; text-align:center;float:left;}
+
+
+/*===============hot gift==================*/
+.giftBox,.giftSearch{width:237px;}
+.giftBox h3,.giftSearch h3{height:52px;background:url(http://www.dahei.com/style/img/cs.jpg) no-repeat 0 -157px; text-indent:-999em;}
+.giftBox ul{width:237px;}
+.giftBox ul li{width:237px;height:52px;border-bottom:1px solid #e0e0e0;}
+.giftBox ul li.lOn a,.giftBox ul li.liCur a{background:url(http://www.dahei.com/style/img/giftLiOn.gif) no-repeat;}
+
+.giftBox h3 span{background:url(http://www.dahei.com/style/img/ico.gif) no-repeat 5px -255px;}
+.giftBox h3.er{ height:39px; padding:0px; background:none;}
+.giftBox h3.er a{ height:34px;padding:4px 0 1px;background:url(http://www.dahei.com/style/img/col3H3.gif) no-repeat 0 -1px; text-indent:0px; display:block;}
+.giftBox h3.er a span{ background-position:4px -837px;text-indent:0px;color: #444444;display: block;font-size: 14px;height: 34px;line-height: 34px;padding-left: 30px;}
+.giftBox h3.er a:hover{background:url(http://www.dahei.com/style/img/col3H3on.gif) 0px -1px no-repeat}
+.giftBox h3.er a:hover span{ background-position:4px -864px;}
+
+.giftBox li a{width:175px;height:39px;padding:13px 0 0 62px;cursor:pointer;display:block;}
+.giftBox li a img{width:28px;height:35px;float:left;}
+.giftBox li a span{height:25px;line-height:25px;padding-left:8px;font-size:14px;color:#444;float:left;}
+.giftBox li a:hover span,.giftBox ul li.liCur a span{color:#248bd4;}
+
+.giftSearch h3{margin-bottom:18px;background:url(http://www.dahei.com/style/img/cs.jpg) no-repeat 0 -210px;}
+
+.searchSel{width:193px;height:29px;margin:0 auto 18px; position:relative;}
+.searchSel .selectMain{width:153px;height:29px;line-height:29px;display:block;padding:0 20px;color:#8e93a0; cursor:pointer;background:url(http://www.dahei.com/style/img/cs.jpg) no-repeat 0 -264px;}
+.searchSel .selectMain:hover{ color:#8e93a0;}
+.searchSel .selUp{background:url(http://www.dahei.com/style/img/cs.jpg) no-repeat 0 -294px;}
+.searchSel .selectWrap{width:191px;height:115px;border:1px solid #cbcbcb;background-color:#fff;position:absolute;left:0;top:28px; overflow:hidden;display:none;}
+.searchSel .selectWrap ul{}
+.searchSel .selectShow{ z-index:10;}
+.searchSel .selectWrap ul li{width:191px;height:22px;}
+.searchSel .selectWrap li a{width:171px;height:22px;line-height:22px;padding-left:20px;color:#676767;display:block;}
+.searchSel .selectWrap li a:hover{background-color:#fef9f4;color:#f60;}
+
+.giftSearch button{width:113px;height:31px;margin:0 auto;display:block;background:url(http://www.dahei.com/style/img/cs.jpg) no-repeat 0 -324px; text-indent:-999em;overflow:hidden;}
+.giftSearch button.on{background:url(http://www.dahei.com/style/img/cs.jpg) no-repeat -115px -324px;}
+
+.csImg{background:url(http://www.dahei.com/style/img/giftIntro.gif) no-repeat center bottom;}
+.giftIntro p{width:690px;height:60px;line-height:25px;padding:5px 10px 0px;margin:0 auto;color:#355368;}
+
+.csImg dl{width:713px;height:166px;padding:0 15px 0 10px;}
+.csImg dt{width:573px;height:143px;float:left;}
+.csImg dd{width:121px;height:133px;padding-top:10px;float:right;}
+.csImg dd a{width:121px;height:32px;margin-bottom:13px;text-indent:-999em;overflow:hidden;background-image:url(http://www.dahei.com/style/img/btn.jpg);float:left;}
+
+.csImg dd a.gHome{background-position:0 -489px;}
+.csImg dd a.gBbs{background-position:0 -521px;}
+.csImg dd a.gLoad{height:37px;background:url(http://www.dahei.com/style/img/loadBtn.jpg) no-repeat;}
+.csImg dd a.gIn{height:37px;margin-bottom:0;background-position:0 -553px;}
+.csImg dd a.gHome:hover{background-position:-129px -489px;}
+.csImg dd a.gBbs:hover{background-position:-129px -521px;}
+.csImg dd a.gLoad:hover{background:url(http://www.dahei.com/style/img/loadBtn.jpg) no-repeat 0 -37px;}
+.csImg dd a.gIn:hover{background-position:-129px -553px;}
+
+
+
+
+.giftList{width:738px;}
+.giftList dl{width:697px;min-height:110px;_height:110px;padding:28px 20px 10px;background:url(http://www.dahei.com/style/img/dotted.gif) repeat-x 0 bottom;}
+.giftList dl.dlOn{background:url(http://www.dahei.com/style/img/dlOn2.gif) repeat-x 0 bottom;}
+.giftList dt{width:87px;height:120px;float:left;}
+.giftList dd{float:left;}
+.giftList dd.d1{width:450px;margin:0 20px 0 30px;padding-top:5px;}
+.giftInfo{height:20px;line-height:20px;margin-bottom:5px;}
+.giftInfo strong{width:200px;height:20px;font-size:14px;float:left;}
+.giftInfo a{height:20px;color:#f25500;float:left;}
+.giftInfo a:hover{color:#3CF;}
+.giftInfo span{width:15px;height:20px;color:#f25500;background:url(http://www.dahei.com/style/img/spanLine2.gif) no-repeat center center; text-indent:-999em;float:left;}
+
+.giftList dd.d1 p{color:#808080;line-height:20px;}
+.giftList dd.d1 p span,.giftList dd.d1 p var{color:#185780;}
+
+.giftList dd.d2{width:104px;padding-top:25px;float:right;}
+.giftList dd.d2 a{width:103px;height:32px;margin-bottom:5px;display:block; background:url(http://www.dahei.com/style/img/cs.jpg) no-repeat 0 -356px; text-indent:-999em;overflow:hidden;}
+.giftList dd.d2 a:hover{background:url(http://www.dahei.com/style/img/cs.jpg) no-repeat -104px -356px;}
+.giftList dd.d2 a.aunusable,.giftList dd.d2 a.aunusable:hover{width:103px;height:32px;margin-bottom:5px;display:block; background:url(http://www.dahei.com/style/img/cs.jpg) no-repeat 0 -447px; text-indent:-999em;overflow:hidden;cursor:default;}
+.giftList dd.d2 p{width:103px;height:20px;line-height:20px; text-align:center;color:#446d00;}
+
+
+
+.fo .wrap{background:url(http://www.dahei.com/style/img/mainB3.png) no-repeat center bottom;}
+.fo .conDiv{background:url(http://www.dahei.com/style/img/bigM2.gif) repeat-y 0 0;}
+.cons .conDiv{background:url(http://www.dahei.com/style/img/bigM1.jpg) repeat-y 0 0;}
+
+.dispute,.business,.protocol{width:952px;margin:0 auto;padding:15px 0 1px;}
+.dispute img,.business img,.protocol img{width:952px;height:96px;display:block;margin:0 auto 25px;}
+
+.dispute h4,.protocol h4{width:880px;height:30px;line-height:30px;padding-left:5px;margin:10px auto;font-size:14px;color:#353535;}
+.dispute p,.protocol p{width:880px;line-height:30px;margin:0 auto;font-size:14px;color:#353535;text-indent:2em;}
+
+.protocol h1{height:30px;line-height:30px;padding:20px 0;font-size:14px; text-align:center;}
+
+
+
+.about{width:900px;height:180px;margin:0 auto 20px;background:url(http://www.dahei.com/style/img/dotted.gif) repeat-x 0 bottom;}
+.business h2{height:25px;line-height:25px;margin-bottom:15px;font-size:18px;color:#444;}
+.business p{color:#444;line-height:30px;font-size:14px;}
+.business p a{color:#444;}
+.business p a:hover{color:#f60;}
+.contact{width:900px;margin:0 auto;}
+
+
+/*========site=================*/
+
+.siteImg{width:952px;height:97px;margin:0 auto 10px;padding-top:20px;}
+.site{width:900px;margin:0 auto;padding:0;}
+.site dl{width:840px;min-height:30px;_height:30px;padding:20px 30px;color:#353535;background:url(http://www.dahei.com/style/img/dotted.gif) repeat-x 0 bottom;}
+.site dt{width:90px;line-height:30px;font-size:16px;float:left;}
+.site dd{width:740px;line-height:30px;float:right;}
+.site dd a{color:#353535;margin:0 10px; white-space:nowrap; overflow:hidden;}
+.site dd a:hover{color:#f60;}
+
+
+
+
+/*----- updown  -------*/
+.updown{width:938px;margin:0 auto;padding:10px 15px 1px;border-top:1px solid #dcdcdc; position:absolute; bottom:0px; left:0px; }
+.updown li{height:25px;line-height:25px;color:#ed620f;}
+.updown li em{font-weight:bold;color:#ed620f;}
+.updown li a{color:#444;}
+.updown li a:hover{color:#ed620f;}
+
+/*----- pagnation  -------*/
+.pagnation{width:730px;height:25px;margin:0 auto 8px;padding:30px 0 5px;text-align:center;}
+.pagnation a{width:30px;height:25px;line-height:25px;margin:0 3px;display:inline-block;color:#666;background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat 0 -459px;}
+.pagnation a:hover{color:#666;text-decoration:none;background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat 0 -392px;}
+.pagnation a.pageOn,.pagnation a.pageOn:hover{color:#fff;background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat 0 -425px;}
+.pagnation a.prev,.pagnation a.next{width:60px;vertical-align:top;background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat -50px -459px;}
+.pagnation a.prev:hover,.pagnation a.next:hover{background:url(http://www.dahei.com/style/img/btn.jpg) no-repeat -50px -392px;}
+
+
+/*----- 404  -------*/
+.errWrap{width:1002px;height:615px;margin:0 auto;}
+.errTop{height:124px;}
+.errCon{height:500px;background:url(http://www.dahei.com/style/img/404.jpg) no-repeat;}
+.errText{height:452px; text-indent:-999em;}
+.errBtn{height:35px;}
+.errBtn p{width:400px;height:43px;margin-left:349px;}
+.errBtn p a{width:155px;height:43px;line-height:35px;margin-right:23px;font-size:16px; font-weight:bold;color:#ffcc00;background:url(http://www.dahei.com/style/img/bOff.png) no-repeat; text-align:center;float:left;}
+.errBtn p a:hover{color:#ffcc00;background:url(http://www.dahei.com/style/img/bOn.png) no-repeat;}
+.cons{background:url(http://www.dahei.com/style/img/mainB5.png) no-repeat center bottom;}
+
